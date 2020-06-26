@@ -18,9 +18,9 @@ public class Teste {
         
         Cliente cliente = new Cliente();
     
-        cliente.setCpf("01130357139");
-        cliente.setNome("Rodrigo Aparecido Mendes");
-        cliente.setRg("15160386");
+        cliente.setCpf("");
+        cliente.setNome("");
+        cliente.setRg("");
 
                 ClienteJPADao.getInstance().removeById(2);
                 
